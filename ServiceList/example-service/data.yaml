@@ -1,0 +1,11 @@
+service: example-service
+metadata: false
+depenencies:
+	application: example-service
+	datastore: example-datastore
+	cdn: example-cdn
+	lambda: example-lambda
+	batch: example-batch
+technologies:
+  - exampletech
+

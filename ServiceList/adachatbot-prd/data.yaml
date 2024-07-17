@@ -1,0 +1,11 @@
+service: example-service
+metadata: false
+depenencies:
+	application: fc-reporting-prd
+	datastore: "Affinity Engine"
+	cdn: false
+	lambda: false
+	batch: false
+technologies:
+  - exampletech
+
