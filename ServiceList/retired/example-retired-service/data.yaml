@@ -1,13 +1,10 @@
-service: example-service
+service: example-retired-service
 metadata: false
 depenencies:
 	application: example-service
 	datastore: example-datastore
-	queue-write: example-queue
-	queue-read: example-queue2
-	lambda: example-lambda
 	cdn: example-cdn
-	objstore: example-s3-bucket
+	lambda: example-lambda
 technologies:
   - exampletech
 
